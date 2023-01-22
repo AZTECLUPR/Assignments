@@ -1,3 +1,5 @@
+//Q6 - Design a calculator to perform basic arithmetic operations (+,-,/,*)
+
 #include <iostream>
 using namespace std;
 
