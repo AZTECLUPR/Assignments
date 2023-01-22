@@ -1,3 +1,5 @@
+//Q5 - Write a C++ program to find size of basic data types.
+
 #include <iostream>
 using namespace std ;
 
@@ -13,4 +15,4 @@ int main()
     cout << "The size of long double is :\t" << sizeof(long double) << endl ;
     cout << "The size of boolean is :\t" << sizeof(bool) << endl ;
     return 0 ;
-} // namespace std
+}
