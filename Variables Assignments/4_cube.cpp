@@ -1,3 +1,5 @@
+//Q4 - Write a C++ program to calculate the cube of a number.
+
 #include <iostream>
 #include <math.h>
 using namespace std ;
