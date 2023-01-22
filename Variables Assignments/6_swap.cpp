@@ -1,3 +1,5 @@
+//Q6 - Write a C++ program to swap two numbers with the help of a third variable.
+
 #include <iostream>
 using namespace std ;
 
@@ -12,4 +14,4 @@ int main()
     b = temp ;
     cout << "After Swapping" << endl << "A =\t" << a << "\t" << "B =\t" << b << endl ;
     return 0 ;
-} // namespace std ;
+}
