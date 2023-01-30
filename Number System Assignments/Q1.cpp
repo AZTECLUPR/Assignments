@@ -5,19 +5,21 @@ using namespace std;
 
 int main()
 {
-    int number = 0;
+    int number, sum = 0;
     int answer = 0, pow = 1;
-    for (int i = 0; i <= 5; i++)
+    cout << "Enter the number :\t";
+    cin >> number;
+    for (int i = 0; i <= number; i++)
     {
-        number = number + i;
+        sum = sum + i;
     }
-    while (number > 0)
+    while (sum > 0)
     {
-        int unit_digit = number % 2;
+        int unit_digit = sum % 2;
         answer = answer + unit_digit * pow;
-        number = number / 2;
+        sum = sum / 2;
         pow = pow * 10;
     }
-    cout << "The Binary Number is :\t" << answer;
+    cout << "The Sum of the numbers in Binary is :\t" << answer;
     return 0;
 }
